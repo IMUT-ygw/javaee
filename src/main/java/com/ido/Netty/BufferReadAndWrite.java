@@ -1,14 +1,18 @@
 package com.ido.Netty;
 
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.nio.ByteBuffer;
 
 /**
  * 读取完数据以后获取到一个只读buffer，只读buffer不能put数据会报错
  */
 public class BufferReadAndWrite {
-    public static void main(String[] args) {
-        ByteBuffer allocate = ByteBuffer.allocate(64);
+    public static void main(String[] args) throws FileNotFoundException {
 
+        ByteBuffer allocate = ByteBuffer.allocate(64);
         for (byte i = 0; i < 64; i++) {
             allocate.put(i);
         }

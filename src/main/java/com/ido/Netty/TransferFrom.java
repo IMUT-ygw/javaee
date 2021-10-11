@@ -3,6 +3,7 @@ package com.ido.Netty;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.Reader;
 import java.nio.channels.FileChannel;
 
 /**
@@ -23,6 +24,8 @@ public class TransferFrom {
         channel1.close();
         fis.close();
         fos.close();
+
+
 
     }
 }
