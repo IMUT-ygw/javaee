@@ -1,10 +1,11 @@
 package com.ido.Netty;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import com.sun.xml.internal.messaging.saaj.util.ByteInputStream;
+
+import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
+import java.util.Scanner;
 
 /**
  * 使用缓冲区及通道拷贝文件
