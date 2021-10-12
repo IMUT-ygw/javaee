@@ -6,6 +6,14 @@ import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
 import java.nio.charset.StandardCharsets;
 
+/**
+ *  梳理：
+ *      客户端使用SocketChannel 还要把这个通道设置为非阻塞
+ *      设置连接信息InetSocketAddress
+ *      通道连接
+ *      创建一个缓冲区，添加数据
+ *      通道直接读取缓冲区数据
+ */
 public class NIOClient {
     public static void main(String[] args) throws IOException {
         SocketChannel socketChannel = SocketChannel.open();

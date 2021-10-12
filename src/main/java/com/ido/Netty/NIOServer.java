@@ -27,22 +27,30 @@ import java.util.concurrent.TimeUnit;
  *       int select()：阻塞到至少有一个通道在你注册的事件上就绪了。
  *       int select(long timeout)：和select()一样，但最长阻塞时间为timeout毫秒。
  *       int selectNow()：非阻塞，只要有通道就绪就立刻返回。
- *
+ *  梳理：
+ *      这是个服务端必须声明 ServerSocketChannel 并绑定端口
+ *      还要声明一个selector来监听ACCEPT事件（这是个服务器端应该对接受事件感兴趣）
+ *      还要将serverSocket注册到选择器中（注册前要设置为非阻塞）
+ *      循环等待客户端连接while(true)
+ *      通过选择器获取selectionKeys,然后对其进行迭代
+ *      判断是不是选择器感兴趣的事件，服务端一般是判断是否为accept
+ *      如果是则ServerSocketChannel.accept();并将连接的通道设置为非阻塞
+ *      然后注册进选择器，这个通道感兴趣的内容就是读数据了，要在后面声明接受数据的buffer
+ *      如果这个通道是数据通道，则将当前key强转为SocketChannel
+ *      获取该通道下的的bugffer(这个buffer就是带来的空盒子)，还要把数据读到这个buffer中
  */
 public class NIOServer {
     public static void main(String[] args) throws IOException, InterruptedException {
+        //初始化serverSocketChannel
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
-
         //获取一个selector对象
         Selector selector = Selector.open();
-
         //绑定端口
         serverSocketChannel.socket().bind(new InetSocketAddress(9999));
-
         //设置为非阻塞
         serverSocketChannel.configureBlocking(false);
 
-        //设置通道事件（通过Selector监听Channel时对什么事件感兴趣）
+        //设置通道事件（通过Selector监听Channel时对什么事件感兴趣）server监听连接事件
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
 
         //循环等待客户端连接
