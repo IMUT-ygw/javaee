@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-13T16:35:53</date>
+  <millis>1634114153274</millis>
+  <sequence>0</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>SEVERE</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>severe</message>
+</record>
+<record>
+  <date>2021-10-13T16:35:53</date>
+  <millis>1634114153311</millis>
+  <sequence>1</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>WARNING</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>warning</message>
+</record>
+<record>
+  <date>2021-10-13T16:35:53</date>
+  <millis>1634114153311</millis>
+  <sequence>2</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>INFO</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>info</message>
+</record>
+<record>
+  <date>2021-10-13T16:35:53</date>
+  <millis>1634114153312</millis>
+  <sequence>3</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>CONFIG</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>config</message>
+</record>
+<record>
+  <date>2021-10-13T16:35:53</date>
+  <millis>1634114153312</millis>
+  <sequence>4</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>FINE</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2021-10-13T16:35:53</date>
+  <millis>1634114153313</millis>
+  <sequence>5</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>FINER</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2021-10-13T16:35:53</date>
+  <millis>1634114153313</millis>
+  <sequence>6</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>FINEST</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-13T16:37:59</date>
+  <millis>1634114279233</millis>
+  <sequence>0</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>SEVERE</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>severe</message>
+</record>
+<record>
+  <date>2021-10-13T16:37:59</date>
+  <millis>1634114279291</millis>
+  <sequence>1</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>WARNING</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>warning</message>
+</record>
+<record>
+  <date>2021-10-13T16:37:59</date>
+  <millis>1634114279292</millis>
+  <sequence>2</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>INFO</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>info</message>
+</record>
+<record>
+  <date>2021-10-13T16:37:59</date>
+  <millis>1634114279293</millis>
+  <sequence>3</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>CONFIG</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>config</message>
+</record>
+<record>
+  <date>2021-10-13T16:37:59</date>
+  <millis>1634114279294</millis>
+  <sequence>4</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>FINE</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2021-10-13T16:37:59</date>
+  <millis>1634114279294</millis>
+  <sequence>5</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>FINER</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2021-10-13T16:37:59</date>
+  <millis>1634114279295</millis>
+  <sequence>6</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>FINEST</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+==================================================
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-13T16:38:14</date>
+  <millis>1634114294394</millis>
+  <sequence>0</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>SEVERE</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>severe</message>
+</record>
+<record>
+  <date>2021-10-13T16:38:14</date>
+  <millis>1634114294437</millis>
+  <sequence>1</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>WARNING</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>warning</message>
+</record>
+<record>
+  <date>2021-10-13T16:38:14</date>
+  <millis>1634114294438</millis>
+  <sequence>2</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>INFO</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>info</message>
+</record>
+<record>
+  <date>2021-10-13T16:38:14</date>
+  <millis>1634114294438</millis>
+  <sequence>3</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>CONFIG</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>config</message>
+</record>
+<record>
+  <date>2021-10-13T16:38:14</date>
+  <millis>1634114294439</millis>
+  <sequence>4</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>FINE</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2021-10-13T16:38:14</date>
+  <millis>1634114294439</millis>
+  <sequence>5</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>FINER</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2021-10-13T16:38:14</date>
+  <millis>1634114294440</millis>
+  <sequence>6</sequence>
+  <logger>com.ido.log.LoggerJdkDemo</logger>
+  <level>FINEST</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>testProp</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-13T17:07:03</date>
+  <millis>1634116023616</millis>
+  <sequence>0</sequence>
+  <logger>com.ido</logger>
+  <level>SEVERE</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>diyTestProp</method>
+  <thread>1</thread>
+  <message>severe</message>
+</record>
+<record>
+  <date>2021-10-13T17:07:03</date>
+  <millis>1634116023662</millis>
+  <sequence>1</sequence>
+  <logger>com.ido</logger>
+  <level>WARNING</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>diyTestProp</method>
+  <thread>1</thread>
+  <message>warning</message>
+</record>
+<record>
+  <date>2021-10-13T17:07:03</date>
+  <millis>1634116023662</millis>
+  <sequence>2</sequence>
+  <logger>com.ido</logger>
+  <level>INFO</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>diyTestProp</method>
+  <thread>1</thread>
+  <message>info</message>
+</record>
+<record>
+  <date>2021-10-13T17:07:03</date>
+  <millis>1634116023663</millis>
+  <sequence>3</sequence>
+  <logger>com.ido</logger>
+  <level>CONFIG</level>
+  <class>com.ido.log.LoggerJdkDemo</class>
+  <method>diyTestProp</method>
+  <thread>1</thread>
+  <message>config</message>
+</record>
+</log>

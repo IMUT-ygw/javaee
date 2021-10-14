@@ -1,0 +1,15 @@
+十月 13, 2021 4:02:55 下午 com.ido.log.LoggerJdkDemo testLogConfig
+严重: severe
+十月 13, 2021 4:02:55 下午 com.ido.log.LoggerJdkDemo testLogConfig
+警告: warning
+十月 13, 2021 4:02:55 下午 com.ido.log.LoggerJdkDemo testLogConfig
+信息: info
+十月 13, 2021 4:02:55 下午 com.ido.log.LoggerJdkDemo testLogConfig
+配置: config
+十月 13, 2021 4:02:55 下午 com.ido.log.LoggerJdkDemo testLogConfig
+详细: fine
+十月 13, 2021 4:02:55 下午 com.ido.log.LoggerJdkDemo testLogConfig
+较详细: finer
+十月 13, 2021 4:02:55 下午 com.ido.log.LoggerJdkDemo testLogConfig
+非常详细: finest
+=====================================================================
